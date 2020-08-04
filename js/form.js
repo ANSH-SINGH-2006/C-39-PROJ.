@@ -37,7 +37,7 @@ class Form{
        player.update();
        player.updateCount(playerCount);
 
-       this.greeting.html("Hello!! "+player.name);
+       this.greeting.html("Hello!! "+player.name+", Invite your other friends by giving them the link");
        this.greeting.position(400,360);
    })
 
